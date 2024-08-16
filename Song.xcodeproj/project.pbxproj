@@ -14,6 +14,7 @@
 		E3CE09982C6D01E9005F7F70 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE09972C6D01E9005F7F70 /* SongTests.swift */; };
 		E3CE09A22C6D01E9005F7F70 /* SongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE09A12C6D01E9005F7F70 /* SongUITests.swift */; };
 		E3CE09A42C6D01E9005F7F70 /* SongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE09A32C6D01E9005F7F70 /* SongUITestsLaunchTests.swift */; };
+		E3CE09BC2C6E1A7D005F7F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CE09BB2C6E1A7D005F7F70 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E3CE099D2C6D01E9005F7F70 /* SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CE09A12C6D01E9005F7F70 /* SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongUITests.swift; sourceTree = "<group>"; };
 		E3CE09A32C6D01E9005F7F70 /* SongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3CE09BB2C6E1A7D005F7F70 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,8 @@
 			children = (
 				E3CE09862C6D01E6005F7F70 /* SongApp.swift */,
 				E3CE09882C6D01E6005F7F70 /* ContentView.swift */,
-				E3CE098A2C6D01E8005F7F70 /* Assets.xcassets */,
 				E3CE098C2C6D01E8005F7F70 /* Preview Content */,
+				E3CE09BB2C6E1A7D005F7F70 /* LaunchScreen.storyboard */,
 			);
 			path = Song;
 			sourceTree = "<group>";
@@ -105,6 +107,7 @@
 		E3CE098C2C6D01E8005F7F70 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE098A2C6D01E8005F7F70 /* Assets.xcassets */,
 				E3CE098D2C6D01E8005F7F70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CE09BC2C6E1A7D005F7F70 /* LaunchScreen.storyboard in Resources */,
 				E3CE098E2C6D01E8005F7F70 /* Preview Assets.xcassets in Resources */,
 				E3CE098B2C6D01E8005F7F70 /* Assets.xcassets in Resources */,
 			);
@@ -419,17 +423,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Song/Preview Content\"";
 				DEVELOPMENT_TEAM = DX2J3DE3BD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Songs;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,17 +458,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Song/Preview Content\"";
 				DEVELOPMENT_TEAM = DX2J3DE3BD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Songs;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
